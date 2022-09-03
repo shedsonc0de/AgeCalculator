@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="side-bar">
+            <ul>
+                <li>service</li>
+                <li>about</li>
+                <li>contact</li>
+            </ul>
+        </div>
+        <section class="div1">
+            <header>
+                <h2>Shed</h2>
+                <ul>
+                    <li>service</li>
+                    <li>about</li>
+                    <li>contact</li>
+                </ul>
+
+                <div class="hamburger-menu">
+                    <div class="bar-top"></div>
+                    <div class="bar-middle"></div>
+                    <div class="bar-bottom"></div>
+                  </div>
+            </header>
+            <div class="title-container">
+                <h3 class="header-title">Calculate Age</h3>
+                <p class="title">To get your age calculated just enter
+                    your birthday
+                </p>
+            </div>
+        </section>
+        <div class="calculator-container">
+            <input type="text" placeholder="Enter your name" name="" id="name">
+            <div class="inputs-container">
+                <input type="number" placeholder="DD" name="" id="day">
+                <input type="number" placeholder="MM" name="" id="mounth">
+                <input type="number" placeholder="YYYY" name="" id="year">
+            </div>
+        </div>
+        <div class="result-container">
+            <h2 class="result"></h2>
+        </div>
+            <button class="btn">Calculate Age Today</button>
+            <button id="tryAgain" class="btn">Retry</button>
+    </div>
+</body>
+<script src="./script.js"></script>
+</html>
